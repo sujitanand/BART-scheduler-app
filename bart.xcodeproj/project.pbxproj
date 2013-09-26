@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1096AF3C158C32EC0021B7E0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1096AF3B158C32EC0021B7E0 /* MapKit.framework */; };
+		1096AF3F158C37370021B7E0 /* MapDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1096AF3E158C37370021B7E0 /* MapDisplay.m */; };
+		1096AF41158C38D40021B7E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1096AF40158C38D40021B7E0 /* CoreLocation.framework */; };
+		1096AF4D158C63B70021B7E0 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 1096AF4C158C63B70021B7E0 /* Register.m */; };
+		3E01B53E158ADBB500DC7E77 /* mainscreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E01B53D158ADBB500DC7E77 /* mainscreen.m */; };
+		3E4CB41A158968E200FA33CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4CB419158968E200FA33CD /* UIKit.framework */; };
+		3E4CB41C158968E200FA33CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4CB41B158968E200FA33CD /* Foundation.framework */; };
+		3E4CB41E158968E200FA33CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4CB41D158968E200FA33CD /* CoreGraphics.framework */; };
+		3E4CB424158968E200FA33CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4CB422158968E200FA33CD /* InfoPlist.strings */; };
+		3E4CB426158968E200FA33CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CB425158968E200FA33CD /* main.m */; };
+		3E4CB42A158968E300FA33CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CB429158968E300FA33CD /* AppDelegate.m */; };
+		3E4CB42D158968E300FA33CD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4CB42B158968E300FA33CD /* MainStoryboard_iPhone.storyboard */; };
+		3E4CB433158968E300FA33CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CB432158968E300FA33CD /* ViewController.m */; };
+		3E4CB43B158968E300FA33CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4CB43A158968E300FA33CD /* SenTestingKit.framework */; };
+		3E4CB43C158968E300FA33CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4CB419158968E200FA33CD /* UIKit.framework */; };
+		3E4CB43D158968E300FA33CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4CB41B158968E200FA33CD /* Foundation.framework */; };
+		3E4CB445158968E300FA33CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4CB443158968E300FA33CD /* InfoPlist.strings */; };
+		3E4CB448158968E300FA33CD /* bartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CB447158968E300FA33CD /* bartTests.m */; };
+		3E4CB4531589B65E00FA33CD /* bart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CB4521589B65E00FA33CD /* bart.m */; };
+		3E4CB4561589BAB200FA33CD /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CB4551589BAB200FA33CD /* XMLParser.m */; };
+		3E6987DB158AAFF500F0DA8B /* lgndetails.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E6987DA158AAFF500F0DA8B /* lgndetails.plist */; };
+		AF8A864F164AEEC000504C67 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8A864E164AEEC000504C67 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E4CB43E158968E300FA33CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4CB40C158968E200FA33CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E4CB414158968E200FA33CD;
+			remoteInfo = bart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1096AF3B158C32EC0021B7E0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1096AF3D158C37370021B7E0 /* MapDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDisplay.h; sourceTree = "<group>"; };
+		1096AF3E158C37370021B7E0 /* MapDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDisplay.m; sourceTree = "<group>"; };
+		1096AF40158C38D40021B7E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1096AF4B158C63B70021B7E0 /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Register.h; path = ../Register.h; sourceTree = "<group>"; };
+		1096AF4C158C63B70021B7E0 /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Register.m; path = ../Register.m; sourceTree = "<group>"; };
+		3E01B53C158ADBB500DC7E77 /* mainscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainscreen.h; sourceTree = "<group>"; };
+		3E01B53D158ADBB500DC7E77 /* mainscreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainscreen.m; sourceTree = "<group>"; };
+		3E4CB415158968E200FA33CD /* bart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4CB419158968E200FA33CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E4CB41B158968E200FA33CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E4CB41D158968E200FA33CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E4CB421158968E200FA33CD /* bart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bart-Info.plist"; sourceTree = "<group>"; };
+		3E4CB423158968E200FA33CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E4CB425158968E200FA33CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E4CB427158968E200FA33CD /* bart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bart-Prefix.pch"; sourceTree = "<group>"; };
+		3E4CB428158968E300FA33CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E4CB429158968E300FA33CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E4CB42C158968E300FA33CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3E4CB431158968E300FA33CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E4CB432158968E300FA33CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E4CB439158968E300FA33CD /* bartTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bartTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4CB43A158968E300FA33CD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E4CB442158968E300FA33CD /* bartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bartTests-Info.plist"; sourceTree = "<group>"; };
+		3E4CB444158968E300FA33CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E4CB446158968E300FA33CD /* bartTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bartTests.h; sourceTree = "<group>"; };
+		3E4CB447158968E300FA33CD /* bartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bartTests.m; sourceTree = "<group>"; };
+		3E4CB4511589B65E00FA33CD /* bart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bart.h; sourceTree = "<group>"; };
+		3E4CB4521589B65E00FA33CD /* bart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bart.m; sourceTree = "<group>"; };
+		3E4CB4541589BAB200FA33CD /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		3E4CB4551589BAB200FA33CD /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		3E6987DA158AAFF500F0DA8B /* lgndetails.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lgndetails.plist; sourceTree = "<group>"; };
+		AF8A864B164AEEA300504C67 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		AF8A864C164AEEA300504C67 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		AF8A864E164AEEC000504C67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4CB412158968E200FA33CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8A864F164AEEC000504C67 /* SystemConfiguration.framework in Frameworks */,
+				1096AF41158C38D40021B7E0 /* CoreLocation.framework in Frameworks */,
+				1096AF3C158C32EC0021B7E0 /* MapKit.framework in Frameworks */,
+				3E4CB41A158968E200FA33CD /* UIKit.framework in Frameworks */,
+				3E4CB41C158968E200FA33CD /* Foundation.framework in Frameworks */,
+				3E4CB41E158968E200FA33CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4CB435158968E300FA33CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4CB43B158968E300FA33CD /* SenTestingKit.framework in Frameworks */,
+				3E4CB43C158968E300FA33CD /* UIKit.framework in Frameworks */,
+				3E4CB43D158968E300FA33CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E4CB40A158968E200FA33CD = {
+			isa = PBXGroup;
+			children = (
+				3E4CB41F158968E200FA33CD /* bart */,
+				3E4CB440158968E300FA33CD /* bartTests */,
+				3E4CB418158968E200FA33CD /* Frameworks */,
+				3E4CB416158968E200FA33CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E4CB416158968E200FA33CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4CB415158968E200FA33CD /* bart.app */,
+				3E4CB439158968E300FA33CD /* bartTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E4CB418158968E200FA33CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF8A864E164AEEC000504C67 /* SystemConfiguration.framework */,
+				1096AF40158C38D40021B7E0 /* CoreLocation.framework */,
+				1096AF3B158C32EC0021B7E0 /* MapKit.framework */,
+				3E4CB419158968E200FA33CD /* UIKit.framework */,
+				3E4CB41B158968E200FA33CD /* Foundation.framework */,
+				3E4CB41D158968E200FA33CD /* CoreGraphics.framework */,
+				3E4CB43A158968E300FA33CD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E4CB41F158968E200FA33CD /* bart */ = {
+			isa = PBXGroup;
+			children = (
+				3E4CB428158968E300FA33CD /* AppDelegate.h */,
+				3E4CB429158968E300FA33CD /* AppDelegate.m */,
+				3E4CB42B158968E300FA33CD /* MainStoryboard_iPhone.storyboard */,
+				AF8A864A164AEEA300504C67 /* Flurry */,
+				1096AF4B158C63B70021B7E0 /* Register.h */,
+				1096AF4C158C63B70021B7E0 /* Register.m */,
+				1096AF3D158C37370021B7E0 /* MapDisplay.h */,
+				1096AF3E158C37370021B7E0 /* MapDisplay.m */,
+				3E01B53C158ADBB500DC7E77 /* mainscreen.h */,
+				3E01B53D158ADBB500DC7E77 /* mainscreen.m */,
+				3E6987DA158AAFF500F0DA8B /* lgndetails.plist */,
+				3E4CB431158968E300FA33CD /* ViewController.h */,
+				3E4CB432158968E300FA33CD /* ViewController.m */,
+				3E4CB4511589B65E00FA33CD /* bart.h */,
+				3E4CB4521589B65E00FA33CD /* bart.m */,
+				3E4CB4541589BAB200FA33CD /* XMLParser.h */,
+				3E4CB4551589BAB200FA33CD /* XMLParser.m */,
+				3E4CB420158968E200FA33CD /* Supporting Files */,
+			);
+			path = bart;
+			sourceTree = "<group>";
+		};
+		3E4CB420158968E200FA33CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4CB421158968E200FA33CD /* bart-Info.plist */,
+				3E4CB422158968E200FA33CD /* InfoPlist.strings */,
+				3E4CB425158968E200FA33CD /* main.m */,
+				3E4CB427158968E200FA33CD /* bart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E4CB440158968E300FA33CD /* bartTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E4CB446158968E300FA33CD /* bartTests.h */,
+				3E4CB447158968E300FA33CD /* bartTests.m */,
+				3E4CB441158968E300FA33CD /* Supporting Files */,
+			);
+			path = bartTests;
+			sourceTree = "<group>";
+		};
+		3E4CB441158968E300FA33CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4CB442158968E300FA33CD /* bartTests-Info.plist */,
+				3E4CB443158968E300FA33CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF8A864A164AEEA300504C67 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				AF8A864B164AEEA300504C67 /* Flurry.h */,
+				AF8A864C164AEEA300504C67 /* libFlurry.a */,
+			);
+			name = Flurry;
+			path = "../../../../Downloads/Flurry iPhone SDK v4/Flurry";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E4CB414158968E200FA33CD /* bart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4CB44B158968E300FA33CD /* Build configuration list for PBXNativeTarget "bart" */;
+			buildPhases = (
+				3E4CB411158968E200FA33CD /* Sources */,
+				3E4CB412158968E200FA33CD /* Frameworks */,
+				3E4CB413158968E200FA33CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bart;
+			productName = bart;
+			productReference = 3E4CB415158968E200FA33CD /* bart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E4CB438158968E300FA33CD /* bartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4CB44E158968E300FA33CD /* Build configuration list for PBXNativeTarget "bartTests" */;
+			buildPhases = (
+				3E4CB434158968E300FA33CD /* Sources */,
+				3E4CB435158968E300FA33CD /* Frameworks */,
+				3E4CB436158968E300FA33CD /* Resources */,
+				3E4CB437158968E300FA33CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4CB43F158968E300FA33CD /* PBXTargetDependency */,
+			);
+			name = bartTests;
+			productName = bartTests;
+			productReference = 3E4CB439158968E300FA33CD /* bartTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E4CB40C158968E200FA33CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3E4CB40F158968E200FA33CD /* Build configuration list for PBXProject "bart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E4CB40A158968E200FA33CD;
+			productRefGroup = 3E4CB416158968E200FA33CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E4CB414158968E200FA33CD /* bart */,
+				3E4CB438158968E300FA33CD /* bartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E4CB413158968E200FA33CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4CB424158968E200FA33CD /* InfoPlist.strings in Resources */,
+				3E4CB42D158968E300FA33CD /* MainStoryboard_iPhone.storyboard in Resources */,
+				3E6987DB158AAFF500F0DA8B /* lgndetails.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4CB436158968E300FA33CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4CB445158968E300FA33CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E4CB437158968E300FA33CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4CB411158968E200FA33CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4CB426158968E200FA33CD /* main.m in Sources */,
+				3E4CB42A158968E300FA33CD /* AppDelegate.m in Sources */,
+				3E4CB433158968E300FA33CD /* ViewController.m in Sources */,
+				3E4CB4531589B65E00FA33CD /* bart.m in Sources */,
+				3E4CB4561589BAB200FA33CD /* XMLParser.m in Sources */,
+				3E01B53E158ADBB500DC7E77 /* mainscreen.m in Sources */,
+				1096AF3F158C37370021B7E0 /* MapDisplay.m in Sources */,
+				1096AF4D158C63B70021B7E0 /* Register.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4CB434158968E300FA33CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4CB448158968E300FA33CD /* bartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E4CB43F158968E300FA33CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E4CB414158968E200FA33CD /* bart */;
+			targetProxy = 3E4CB43E158968E300FA33CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E4CB422158968E200FA33CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4CB423158968E200FA33CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E4CB42B158968E300FA33CD /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4CB42C158968E300FA33CD /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3E4CB443158968E300FA33CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4CB444158968E300FA33CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E4CB449158968E300FA33CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E4CB44A158968E300FA33CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E4CB44C158968E300FA33CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sujit Karkun (NWT7RETNS2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sujit Karkun (NWT7RETNS2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bart/bart-Prefix.pch";
+				INFOPLIST_FILE = "bart/bart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Flurry iPhone SDK v4/Flurry\"",
+					"\"$(SRCROOT)/../../../Downloads/Flurry iPhone SDK v4/FlurryAds\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3E096BA4-B08A-4E75-BB22-B1388324811F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3E096BA4-B08A-4E75-BB22-B1388324811F";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E4CB44D158968E300FA33CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sujit Karkun (NWT7RETNS2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sujit Karkun (NWT7RETNS2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bart/bart-Prefix.pch";
+				INFOPLIST_FILE = "bart/bart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Flurry iPhone SDK v4/Flurry\"",
+					"\"$(SRCROOT)/../../../Downloads/Flurry iPhone SDK v4/FlurryAds\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3E096BA4-B08A-4E75-BB22-B1388324811F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3E096BA4-B08A-4E75-BB22-B1388324811F";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E4CB44F158968E300FA33CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bart.app/bart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bart/bart-Prefix.pch";
+				INFOPLIST_FILE = "bartTests/bartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3E4CB450158968E300FA33CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bart.app/bart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bart/bart-Prefix.pch";
+				INFOPLIST_FILE = "bartTests/bartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E4CB40F158968E200FA33CD /* Build configuration list for PBXProject "bart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4CB449158968E300FA33CD /* Debug */,
+				3E4CB44A158968E300FA33CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E4CB44B158968E300FA33CD /* Build configuration list for PBXNativeTarget "bart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4CB44C158968E300FA33CD /* Debug */,
+				3E4CB44D158968E300FA33CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E4CB44E158968E300FA33CD /* Build configuration list for PBXNativeTarget "bartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4CB44F158968E300FA33CD /* Debug */,
+				3E4CB450158968E300FA33CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E4CB40C158968E200FA33CD /* Project object */;
+}
